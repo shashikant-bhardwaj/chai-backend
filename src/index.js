@@ -3,6 +3,7 @@ import dotenv from "dotenv"
 // import mongoose from "mongoose"       // ye mongoose aur DB_NAME import use nhi krenge ismei
 // import { DB_NAME } from "./constants"
 import connectDB from "./db/index.js"
+import { app } from "./app.js";
 
 dotenv.config({
     path: './env'
